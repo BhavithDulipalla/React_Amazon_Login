@@ -1,0 +1,63 @@
+.form{
+    width: 300px;
+    border: 2px solid #282c34;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 5px 20px;
+}
+
+.contact{
+    display: flex;
+    width: 100%;
+}
+
+.contact select{
+    width: 40%;
+    margin: 5px 3% 5px 0;
+    height: 36px;
+}
+
+.contact input{
+    height: 30px;
+    width: 60%;
+}
+
+.inputs{
+    margin: 10px 0;
+}
+
+.inputs label, .contact label{
+    display: block;
+    font-weight:bold ;
+}
+
+.inputs input{
+    width: 97%;
+    height: 30px;
+    margin: 5px 0;
+}
+
+.button{
+    padding: 10px;
+    background-color: rgb(255, 208, 0);
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 234, 0);
+}
+
+.warning {
+    color: red;
+    text-align: left;
+    font-size: 14px;
+}
+
+.inputsWarning{
+    border: 2px solid red;
+    border-radius: 2px;
+}
